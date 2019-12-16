@@ -206,7 +206,7 @@ a:focus {
 
 ::selection {
     color: #fff;
-    background-color: #1a1a23;
+    background-color: grey;
 }
 
 .md-section {
@@ -4141,7 +4141,7 @@ mark, .mark {
     .consult-nav .consult-menu {
         left: 0;
         width: 280px;
-        background-color: #111;
+        background-color: grey;
         -webkit-transform: translate(-100%, 0);
                 transform: translate(-100%, 0);
     }
