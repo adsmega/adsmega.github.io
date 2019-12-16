@@ -60,8 +60,13 @@
 							</li>
 							<li class="menu-item-has-children"><a href="#">CONTACT</a>
 								<ul class="sub-menu">
-									<li><a href="#">CONTACT ME DIRECTLY BY SENDING A MESSAGE TO "MEGALYN@ADSME.GA"</a>
-									</li>
+								<form method="POST"  action="https://formspree.io/xbjdroer">
+									<li><a href="#">FILL OUT THE FORM BELOW !</a></li>
+									<input type="text" name="name" placeholder="Name"/>
+									<input type="email" name="email" placeholder="Email"/>
+									<textarea name="Your message" placeholder="Your message"></textarea>
+									<button type="submit" style="padding: 10px 24px; background-color: orange; border: none; text-align: center; color: white; font-size: 16px; cursor: pointer;">Send</button>
+								</form>
 								</ul>
 							</li>
 						</ul><!-- consult-menu -->
@@ -81,9 +86,8 @@
 					<div class="container">
 						<div class="layout-blog">
 							<div class="layout-blog__content" style="text-align: center; color: white;" >
-								<h2>UNDER MAINTENANCE</h2>
-								<h5 style="color: white;">WE WILL BE BACK SOON!</h5>
-								<h3 id="count" style="color: yellow;"></h3>
+								<h2 style="color: yellow;">UNDER MAINTENANCE</h2>
+								<h3 id="count" style="color: white;"></h3>
 								<script>
 									var countDownDate = new Date("Jan 1, 2020 15:37:25").getTime();
 									var countdownfunction = setInterval(function() {
