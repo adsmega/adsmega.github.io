@@ -206,7 +206,7 @@ a:focus {
 
 ::selection {
     color: #fff;
-    background-color: grey;
+    background-color: #1a1a23;
 }
 
 .md-section {
@@ -1021,7 +1021,7 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.875;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 400;
     font-family: "Roboto", sans-serif;
     color: #626262;
@@ -2728,12 +2728,11 @@ mark, .mark {
 }
 
 .pagination__item {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 700;
     color: #c2c2c2;
     display: inline-block;
     padding: 10px;
-	margin: 0 4px;
 }
 
 .pagination__item:hover {
@@ -3360,7 +3359,7 @@ mark, .mark {
 --------------------------------------------------------------------------------*/
 
 .title-01 {
-    text-align: Left;
+    text-align: center;
     margin-bottom: 30px;
 }
 
@@ -3545,7 +3544,6 @@ mark, .mark {
 
 .widget-text__widget {
     color: #c2c2c2;
-	font-size: 14px;
 }
 
 .widget-text__widget ul {
@@ -3580,9 +3578,9 @@ mark, .mark {
 }
 
 .widget-title {
-    font-size: 22px;
+    font-size: 24px;
     text-transform: capitalize;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 .widget-text__style-02 ul li, .widget-text__style-03 ul li {
@@ -3632,9 +3630,9 @@ mark, .mark {
 --------------------------------------------------------------------------------*/
 
 .footer {
-    background-color: purple;
+    background-color: #1a1a23;
     overflow: hidden;
-    color: white;
+    color: #c2c2c2;
 }
 
 .footer .row {
@@ -3722,7 +3720,7 @@ mark, .mark {
     position: fixed;
     z-index: 999;
     width: 100%;
-    background-color: purple;
+    background-color: white;
     box-shadow: 0 0 8px 0 rgba(0, 0, 0, .1);
     transition: background ease .3s;
 }
@@ -4047,12 +4045,12 @@ mark, .mark {
 
     .consult-nav .consult-menu .sub-menu .current-menu-parent > a,
     .consult-nav .consult-menu .sub-menu .current-menu-item > a {
-        color: .consult-nav #F5F911;
+        color: #f39c12;
     }
 
     .consult-nav .consult-menu .current-menu-parent > a,
     .consult-nav .consult-menu .current-menu-item > a {
-        color: #F5F911;
+        color: #f39c12;
     }
 
     .consult-nav .consult-menu .sub-menu {
@@ -4141,7 +4139,7 @@ mark, .mark {
     .consult-nav .consult-menu {
         left: 0;
         width: 280px;
-        background-color: grey;
+        background-color: #111;
         -webkit-transform: translate(-100%, 0);
                 transform: translate(-100%, 0);
     }
