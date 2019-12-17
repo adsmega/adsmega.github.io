@@ -1,20 +1,3 @@
-/*
-=====================================================================
-*   Keep It Simple v2.0 Layout Stylesheet
-*   url: styleshout.com
-*   07-12-2014
-=====================================================================
-
-   TOC:
-   a. Default Overrides and Common Styles
-   b. Header Styles
-   c. Content
-   d. Sidebar
-   e. Entry
-   f. Archives
-   g. Footer
- 
-===================================================================== */
 
 
 /* a. Default Overrides and Common Styles
@@ -45,12 +28,12 @@ body {
 
 header { 
    width: 100%;   
-   height: 288px;  
+   height: 240px;  
    background: #fff;    
 }
 header .header-content {
-	background: #fff url(img/header-content-bg.png) no-repeat right top;
-	height: 288px;
+	background: #fff;
+	height: 240px;
 	border-bottom: 1px dashed #E8E8E8;
 	position: relative;	
 }
@@ -60,7 +43,7 @@ header .header-content {
 (min-resolution: 192dpi) {
 
 	header .header-content {
-		background: #fff url(img/header-content-bg_@2X.png) no-repeat right top;
+		background: #fff;
 		background-size: 361px 256px;
 	}
 
